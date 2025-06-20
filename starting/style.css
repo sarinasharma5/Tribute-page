@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: black;
+  line-height: 1.6;
+  font-size:20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.container:hover {
+  transform: translateY(-4px);
+}
+
+
+h1 {
+  font-size: 2.8rem;
+  color: purple;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
+  color: peru;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: 12px;
+  margin: 0 auto 30px;
+}
+
+.content {
+  padding: 0 10px;
+}
+
+h2 {
+  color: purple;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+h2 img{
+  width: 250px;
+  margin-bottom: 20px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  scrollbar-highlight-color: black;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #e3f2fd;
+  padding: 15px 20px;
+  border-left: 4px solid palegreen;
+  margin: 30px 0;
+  border-radius: 4px;
+}
+
+
+.learn-more a {
+  display: inline-block;
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: color 0.3s;
+}
+
+.learn-more a:hover {
+  color: greenyellow;
+  text-decoration: underline;
+}
